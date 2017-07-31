@@ -1,0 +1,109 @@
+@charset "UTF-8";
+div.bottom {
+    height: 3.1659rem;
+    background-size: 2.3467rem;
+}
+
+
+
+div.bottom>.f {
+    width: .704rem;
+}
+
+div.bottom>.s {
+    width: 1.7536rem;
+}
+
+div.bottom>.t {
+    width: 2.4875rem;
+}
+
+
+div.bottom>.q {
+    width: 1.0283rem;
+    top: 0.5333rem;
+}
+
+div.bottom>.clock {
+    width: 2.3253rem;
+    bottom: .2219rem;
+}
+
+.zj {
+    width: 2.8075rem;
+    height: 4.1131rem;
+}
+
+/**/
+.zj>h3 {
+    font-size: .384rem;
+    bottom: 2.944rem;
+}
+
+.zj>.ts {
+    font-size: .0853rem;
+    letter-spacing: .0427rem;
+    bottom: 2.752rem;
+}
+
+.zj>.white1 {
+    bottom: 1.408rem;
+    font-size: .128rem;
+    letter-spacing: .064rem;
+}
+
+.zj>.btn {
+    height: .384rem;
+    bottom: .64rem;
+}
+
+.zj>.white2 {
+    bottom: .2987rem;
+    font-size: .1024rem;
+    letter-spacing: .0555rem;
+}
+
+
+/**/
+
+
+div.bottom>.z1 {
+    width: 1.2757rem;
+    right: .4949rem;
+    top: .3755rem;
+}
+
+div.bottom>.cs {
+    width: 1.5659rem;
+    left: .2731rem;
+    bottom: .512rem;
+}
+
+/* 时间 */
+
+
+div.bottom>#box {
+    width: 2.3253rem;
+    height: .2603rem;
+    bottom: .2816rem;
+}
+
+#box>div {width: .192rem; height: .2603rem; }
+
+.time div {
+    font-size: .1109rem;
+    line-height: .2603rem;
+}
+
+
+#bSecond {
+    margin-right: .1664rem;
+}
+
+#bMinute {
+    margin-right: .1237rem;
+}
+
+#bHour {
+    margin-right: .1408rem;
+}

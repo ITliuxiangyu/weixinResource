@@ -1,0 +1,74 @@
+<!--<h3>{{mine.name}}</h3>-->
+<!--<button ng-click="mine.goToPacket()">点击跳转</button>-->
+<div class="box">
+
+    <div class="banner">
+        <img src="img/banner3.png" alt="" class="bg">
+        <img src="img/logo3.png" alt="" class="logo">
+    </div>
+
+    <p>
+        请在下方输入您的姓名、 手机号和所在院校, 签到成功后会随机奖励您一个红包哦~
+    </p>
+
+    <div class="gray"></div>
+
+
+    <div class="form">
+
+        <div class="name input">
+            <span class="shapeI"></span>
+            <input  placeholder="请输入您的姓名" ng-model="mine.nameValue" required>
+            <span class="btn" ng-click="mine.clear(0)"></span>
+        </div>
+
+        <div class="phone input">
+            <span class="phoneI"></span>
+            <input placeholder="请输入您的手机号" ng-model="mine.phoneValue" required>
+            <span class="btn" ng-click="mine.clear(1)"></span>
+        </div>
+
+        <div class="university input">
+            <span class="unI"></span>
+            <!--<input type="text" placeholder="请选择您所在的院校" disabled>-->
+
+            <select ng-model='mine.selected' ng-options="item for item in mine.universityArr" ng-style="mine.colorStyle" ng-click="mine.changeColor()">
+                <option value="">请选择您所在的院校</option>
+            </select>
+            <!--<span class="btn" ng-click=""></span>-->
+        </div>
+
+
+    </div>
+
+    <div class="packet" ng-if="mine.showPacket">
+        <img src="img/logo3.png" alt="" class="logo">
+        <h3>签到成功</h3>
+        <div ng-click="mine.openPacket()"></div>
+    </div>
+
+    <div class="filter" ng-if="mine.showAlert">
+
+    </div>
+
+
+    <div class="alert" ng-if="mine.showAlert">
+        <h2>温馨提示</h2>
+        <h3>{{mine.alertStr}}</h3>
+        <div ng-click="mine.enterButton()">确定</div>
+    </div>
+
+
+
+    <div class="submit" ng-click="mine.submitButtonAction()">
+        <div>提交</div>
+    </div>
+
+
+
+
+
+
+
+
+</div>

@@ -1,0 +1,268 @@
+@charset "UTF-8";
+.box>p {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 0.14rem;
+    line-height: 0.25rem;
+    padding: 0.25rem 0.475rem;
+}
+
+.box>.gray {
+    height: 0.07rem;
+    background-color: #eee;
+}
+
+.box>.form>.input {
+    margin: 0 0.15rem;
+    /*background-color: red;*/
+    display: flex;
+    justify-content: space-between;
+}
+
+.box>.form>.input>span:first-child {
+    width: 0.17rem;
+    height: 0.175rem;
+    /*background-color: blue;*/
+}
+
+.box>.form>.input>.shapeI {
+    background-image: url("../img/shape3.png");
+    background-size: 0.13rem 0.17rem;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.box>.form>.input>.phoneI {
+    background-image: url("../img/phone3.png");
+    background-size: 0.095rem 0.175rem;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.box>.form>.input>.unI {
+    background-image: url("../img/yx3.png");
+    background-size: 0.17rem 0.175rem;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.box>.form>.input>span:last-child {
+    width: .15rem;
+    height: .15rem;
+    background-image: url("../img/形状-5-拷贝-3@3x.png");
+    background-size: .12rem .12rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/*.box>.form>.university>span:last-child {*/
+    /*background-image: url("../img/矩形-3-拷贝@3x.png");*/
+    /*background-size: .15rem .08rem;*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: center center;*/
+/*}*/
+
+select {
+    background-size: .15rem .08rem;
+    /*padding-left: 0.25rem;*/
+    padding-left: 0.2rem;
+    font-size: 0.12rem;
+}
+
+.box>.form>.input>input {
+    outline: none;
+    border: none;
+    flex-grow: 1;
+    padding-left: 0.25rem;
+    font-size: 0.12rem;
+}
+
+.box>.form>.input {
+    padding: 0.1rem 0 0.05rem;
+    border-bottom: 0.01rem solid #eee;
+}
+
+.box>.form>.name {
+    margin-top: 0.065rem;
+}
+
+.box>.submit {
+    padding: 1.055rem 0 0.715rem;
+    /*padding: .5rem 0 0.715rem;*/
+
+}
+
+.box>.submit>div {
+    margin: 0 .225rem;
+    width: auto;
+    height: .3rem;
+    color: white;
+    text-align: center;
+    line-height: 0.3rem;
+    background-color: #00b7ee;
+    font-size: 0.17rem;
+}
+
+/*------------------*/
+.box>.alert {
+    width: 2.75rem;
+    height: 1.57rem;
+    border-radius: .1rem;
+}
+
+
+
+.box>.alert h2 {
+    font-size: .15rem;
+    margin-top: .32rem;
+}
+
+
+
+.box>.alert h3 {
+    font-size: .14rem;
+}
+
+.box>.alert div {
+    font-size: .12rem;
+    width: .5rem;
+    line-height: .2rem;
+    margin-bottom: .2rem;
+    border-radius:.04rem;
+}
+
+/* 红包 */
+
+.box>.packet {
+    width: 2.465rem;
+    height: 3.195rem;
+    border-radius: .3rem;
+}
+.box>.packet>.logo {
+    width: .48rem;
+    height: .48rem;
+    top: .22rem;
+}
+
+.box>.packet>h3 {
+    font-size: .36rem;
+    top: .99rem;
+}
+
+.box>.packet>div {
+    width: .76rem;
+    height: .76rem;
+    top: 1.86rem
+}
+
+/*=======*/
+div.bottom {
+    height: 3.71rem;
+    background-size: 2.75rem;
+}
+
+
+
+div.bottom>.f {
+    width: .825rem;
+}
+
+div.bottom>.s {
+    width: 2.055rem;
+}
+
+div.bottom>.t {
+    width: 2.915rem;
+}
+
+
+div.bottom>.q {
+    width: 1.205rem;
+    top: .625rem;
+}
+
+div.bottom>.clock {
+    width: 2.725rem;
+    bottom: .26rem;
+}
+
+
+.zj {
+    width: 3.29rem;
+    height: 4.82rem;
+}
+
+
+/**/
+.zj>h3 {
+    font-size: .45rem;
+    bottom: 3.45rem;
+}
+
+.zj>.ts {
+    font-size: .1rem;
+    letter-spacing: .05rem;
+    bottom: 3.225rem;
+}
+
+.zj>.white1 {
+    bottom: 1.65rem;
+    font-size: .15rem;
+    letter-spacing: .075rem;
+}
+
+.zj>.btn {
+    height: .45rem;
+    bottom: .75rem;
+}
+
+.zj>.white2 {
+    bottom: .35rem;
+    font-size: .12rem;
+    letter-spacing: .065rem;
+}
+
+
+/**/
+div.bottom>.z1 {
+    width: 1.495rem;
+    right: .58rem;
+    top: .44rem;
+}
+
+div.bottom>.cs {
+    width: 1.835rem;
+    left: .32rem;
+    bottom: .6rem;
+}
+
+
+/* 时间 */
+div.bottom>#box {
+    width: 2.725rem;
+    height: .305rem;
+    bottom: .33rem;
+}
+
+
+#box>div {width: .225rem; height: .305rem; }
+
+.time div {
+    font-size: .13rem;
+    line-height: .305rem;
+}
+
+
+
+#bSecond {
+    margin-right: .195rem;
+}
+
+#bMinute {
+    margin-right: .145rem;
+}
+
+#bHour {
+    margin-right: .165rem;
+}

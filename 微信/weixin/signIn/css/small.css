@@ -1,0 +1,271 @@
+@charset "UTF-8";
+/* 2.34375 */
+.box>p {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 0.1195rem;
+    line-height: 0.2133rem;
+    padding: 0.2133rem 0.4053rem;
+}
+
+.box>.gray {
+    height: 0.0597rem;
+    background-color: #eee;
+}
+
+.box>.form>.input {
+    margin: 0 0.128rem;
+    /*background-color: red;*/
+    display: flex;
+    justify-content: space-between;
+}
+
+.box>.form>.input>span:first-child {
+    width: 0.1451rem;
+    height: 0.1493rem;
+    /*background-color: blue;*/
+}
+
+.box>.form>.input>.shapeI {
+    background-image: url("../img/shape3.png");
+    background-size: 0.1109rem 0.1451rem;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.box>.form>.input>.phoneI {
+    background-image: url("../img/phone3.png");
+    background-size: 0.0811rem 0.1493rem;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.box>.form>.input>.unI {
+    background-image: url("../img/yx3.png");
+    background-size: 0.1451rem 0.1493rem;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+/*.box>.form>.input>span:last-child {*/
+    /*width: .128rem;*/
+    /*height: .128rem;*/
+    /*background-image: url("../img/形状-5-拷贝-3@3x.png");*/
+    /*background-size: .1024rem .1024rem;*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: center center;*/
+/*}*/
+
+select {
+    background-size: .1024rem .1024rem;
+    /*padding-left: 0.2133rem;*/
+    padding-left: 0.21rem;
+
+    font-size: 0.1024rem;
+}
+
+.box>.form>.university>span:last-child {
+    background-image: url("../img/矩形-3-拷贝@3x.png");
+    background-size: .128rem .0683rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.box>.form>.input>input {
+    outline: none;
+    border: none;
+    flex-grow: 1;
+    padding-left: 0.2133rem;
+    font-size: 0.1024rem;
+}
+
+.box>.form>.input {
+    padding: 0.0853rem 0 0.0427rem;
+    border-bottom: 0.01rem solid #eee;
+}
+
+.box>.form>.name {
+    margin-top: 0.0555rem;
+}
+
+.box>.submit {
+    padding: 0.9003rem 0 0.6101rem;
+    /*padding: 0.4267rem 0 0.6101rem;*/
+
+}
+
+.box>.submit>div {
+    margin: 0 .192rem;
+    width: auto;
+    height: .256rem;
+    color: white;
+    text-align: center;
+    line-height: 0.256rem;
+    background-color: #00b7ee;
+    font-size: 0.1451rem;
+}
+
+/*------------------*/
+.box>.alert {
+    width: 2.3467rem;
+    height: 1.3397rem;
+    border-radius: .08533rem;
+}
+
+
+
+.box>.alert h2 {
+    font-size: .128rem;
+    margin-top: .2731rem;
+}
+
+
+
+.box>.alert h3 {
+    font-size: .1195rem;
+}
+
+.box>.alert div {
+    font-size: .1024rem;
+    width: .4267rem;
+    line-height: .1707rem;
+    margin-bottom: .1707rem;
+    border-radius:.0341rem;
+}
+
+/* 红包 */
+.box>.packet {
+    width: 2.1035rem;
+    height: 2.7364rem;
+    border-radius: .256rem;
+}
+
+
+
+.box>.packet>.logo {
+    width: .4096rem;
+    height: .4096rem;
+    top: .1877rem;
+}
+
+.box>.packet>h3 {
+    font-size: .3072rem;
+    top: .8448rem;
+}
+
+.box>.packet>div {
+    width: .6485rem;
+    height: .6485rem;
+    top: 1.5872rem
+}
+
+/*=======*/
+div.bottom {
+    height: 3.1659rem;
+    background-size: 2.3467rem;
+}
+
+
+
+div.bottom>.f {
+    width: .704rem;
+}
+
+div.bottom>.s {
+    width: 1.7536rem;
+}
+
+div.bottom>.t {
+    width: 2.4875rem;
+}
+
+
+div.bottom>.q {
+    width: 1.0283rem;
+    top: 0.5333rem;
+}
+
+div.bottom>.clock {
+    width: 2.3253rem;
+    bottom: .2219rem;
+}
+
+.zj {
+    width: 2.8075rem;
+    height: 4.1131rem;
+}
+
+/**/
+.zj>h3 {
+    font-size: .384rem;
+    bottom: 2.944rem;
+}
+
+.zj>.ts {
+    font-size: .0853rem;
+    letter-spacing: .0427rem;
+    bottom: 2.752rem;
+}
+
+.zj>.white1 {
+    bottom: 1.408rem;
+    font-size: .128rem;
+    letter-spacing: .064rem;
+}
+
+.zj>.btn {
+    height: .384rem;
+    bottom: .64rem;
+}
+
+.zj>.white2 {
+    bottom: .2987rem;
+    font-size: .1024rem;
+    letter-spacing: .0555rem;
+}
+
+
+/**/
+
+
+div.bottom>.z1 {
+    width: 1.2757rem;
+    right: .4949rem;
+    top: .3755rem;
+}
+
+div.bottom>.cs {
+    width: 1.5659rem;
+    left: .2731rem;
+    bottom: .512rem;
+}
+
+/* 时间 */
+
+
+div.bottom>#box {
+    width: 2.3253rem;
+    height: .2603rem;
+    bottom: .2816rem;
+}
+
+#box>div {width: .192rem; height: .2603rem; }
+
+.time div {
+    font-size: .1109rem;
+    line-height: .2603rem;
+}
+
+
+#bSecond {
+    margin-right: .1664rem;
+}
+
+#bMinute {
+    margin-right: .1237rem;
+}
+
+#bHour {
+    margin-right: .1408rem;
+}

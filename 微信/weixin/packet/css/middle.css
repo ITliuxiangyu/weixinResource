@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+div.bottom {
+    height: 3.71rem;
+    background-size: 2.75rem;
+}
+
+
+
+div.bottom>.f {
+    width: .825rem;
+}
+
+div.bottom>.s {
+    width: 2.055rem;
+}
+
+div.bottom>.t {
+    width: 2.915rem;
+}
+
+
+div.bottom>.q {
+    width: 1.205rem;
+    top: .625rem;
+}
+
+div.bottom>.clock {
+    width: 2.725rem;
+    bottom: .26rem;
+}
+
+
+.zj {
+    width: 3.29rem;
+    height: 4.82rem;
+}
+
+
+/**/
+.zj>h3 {
+    font-size: .45rem;
+    bottom: 3.45rem;
+}
+
+.zj>.ts {
+    font-size: .1rem;
+    letter-spacing: .05rem;
+    bottom: 3.225rem;
+}
+
+.zj>.white1 {
+    bottom: 1.65rem;
+    font-size: .15rem;
+    letter-spacing: .075rem;
+}
+
+.zj>.btn {
+    height: .45rem;
+    bottom: .75rem;
+}
+
+.zj>.white2 {
+    bottom: .35rem;
+    font-size: .12rem;
+    letter-spacing: .065rem;
+}
+
+
+/**/
+div.bottom>.z1 {
+    width: 1.495rem;
+    right: .58rem;
+    top: .44rem;
+}
+
+div.bottom>.cs {
+    width: 1.835rem;
+    left: .32rem;
+    bottom: .6rem;
+}
+
+
+/* 时间 */
+div.bottom>#box {
+    width: 2.725rem;
+    height: .305rem;
+    bottom: .33rem;
+}
+
+
+#box>div {width: .225rem; height: .305rem; }
+
+.time div {
+    font-size: .13rem;
+    line-height: .305rem;
+}
+
+
+
+#bSecond {
+    margin-right: .195rem;
+}
+
+#bMinute {
+    margin-right: .145rem;
+}
+
+#bHour {
+    margin-right: .165rem;
+}
+
